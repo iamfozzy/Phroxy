@@ -1,0 +1,21 @@
+{
+    "name": "fozzy/phroxy",
+    "description": "Quick and dirty php proxy, useful for proxying CORS requests for legacy browsers.",
+    "keywords": [
+        "cache",
+        "phroxy"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fozzy\\Phroxy\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
